@@ -13,7 +13,7 @@ LABEL maintainer="netpi@hilscher.com" \
       description="Debian stretch with SSH and Linux RT patch tests"
 
 #version
-ENV HILSCHERNETPI_DEBIAN_STRETCH 0.9.1.0
+ENV HILSCHERNETPI_LINUX_RTPATCH_TEST 0.9.1.0
 
 #install ssh, give user "root" a password
 RUN apt-get update  \
